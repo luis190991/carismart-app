@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="temperature">30º</string>
+    <string name="city">Chihuahua</string>
+    <string name="city_monterrey">Monterrey</string>
+    <string name="status">Lloviendo</string>
+    <string name="welcome">Bienvenido a la app del clima, selecciona una ciudad</string>
+</resources>

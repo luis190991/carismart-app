@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CitySelectorActivity">
+
+    <TextView
+        android:id="@+id/txtVwWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCuu"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="218dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/city"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwWelcome"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <Button
+        android:id="@+id/btnMty"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="217dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/city_monterrey"
+        app:layout_constraintTop_toBottomOf="@+id/btnCuu"
+        tools:layout_editor_absoluteX="100dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
